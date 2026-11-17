@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Colombia | Gastronomía</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/platos.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="logo">COLOMBIA.</a>
+
+            <div class="nav-links">
+                <a href="index.html">Departamentos</a>
+                <a href="platos.html" class="active">Gastronomía</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="hero">
+            <p class="subtitle">CULTURA Y TRADICIÓN</p>
+
+            <h1>Sabores de Colombia.</h1>
+
+            <p>
+                Explora nuestra gastronomía y descubre
+                los platos típicos que representan cada región.
+            </p>
+        </section>
+
+        <section class="statistics">
+
+            <div class="stat-card">
+                <h2 id="totalPlatos">0</h2>
+                <p>Platos encontrados</p>
+            </div>
+
+        </section>
+
+        <section class="content-section">
+
+            <div class="section-heading">
+                <div>
+                    <p class="subtitle">GASTRONOMÍA NACIONAL</p>
+                    <h2>Platos típicos</h2>
+                </div>
+            </div>
+
+            <p id="mensajeCarga" class="loading">
+                Cargando platos típicos...
+            </p>
+
+            <div id="contenedorPlatos" class="card-container">
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Mini Portal de Colombia </p>
+    </footer>
+
+</body>
+
+</html>

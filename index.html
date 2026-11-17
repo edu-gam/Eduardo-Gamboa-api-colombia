@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Colombia | Departamentos</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/departamentos.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="logo">COLOMBIA.</a>
+
+            <div class="nav-links">
+                <a href="index.html" class="active">Departamentos</a>
+                <a href="platos.html">Gastronomía</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="hero">
+            <p class="subtitle">CONOCE NUESTRO PAÍS</p>
+
+            <h1>Explora Colombia.</h1>
+
+            <p>
+                Descubre los departamentos que conforman
+                nuestro territorio y conoce su riqueza geográfica.
+            </p>
+        </section>
+
+        <section class="statistics">
+
+            <div class="stat-card">
+                <h2 id="totalDepartamentos">0</h2>
+                <p>Departamentos encontrados</p>
+            </div>
+
+            <div class="stat-card">
+                <h2 id="totalRegiones">0</h2>
+                <p>Regiones registradas</p>
+            </div>
+
+        </section>
+
+        <section class="content-section">
+
+            <div class="section-heading">
+                <div>
+                    <p class="subtitle">TERRITORIO NACIONAL</p>
+                    <h2>Departamentos de Colombia</h2>
+                </div>
+            </div>
+
+            <p id="mensajeCarga" class="loading">
+                Cargando departamentos...
+            </p>
+
+            <div id="contenedorDepartamentos" class="card-container">
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Mini Portal de Colombia </p>
+    </footer>
+
+</body>
+
+</html>
